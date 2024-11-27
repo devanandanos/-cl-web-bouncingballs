@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bouncing balls</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>bouncing balls</h1>
+    <p class="balls-count-outer">Total Balls <span id="balls-count">0</span></p>
+    <p class="balls-cached-outer">
+      balls Cacthed <span id="balls-catched">0</span>
+    </p>
+    <p class="note">Default Count 25</p>
+    <p class="info">
+      Try different values for balls count and see the magic while Trying to
+      catch those balls with the white circle!
+    </p>
+    <input type="text" id="random-count" placeholder="Enter Number of balls" />
+    <button onclick="startBouncing()">Start Bouncing</button>
+    <canvas></canvas>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

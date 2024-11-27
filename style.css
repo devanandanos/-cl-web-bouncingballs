@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+.balls-count-outer,
+.balls-cached-outer,
+input,
+input::before,
+button,
+.note {
+  position: absolute;
+  margin: 10px;
+  color: #aaa;
+}
+
+.balls-count-outer {
+  top: 35px;
+  right: 5px;
+}
+
+.balls-cached-outer {
+  top: 55px;
+  right: 5px;
+}
+
+.note {
+  position: 10px;
+  font-size: 16px;
+  left: 5px;
+}
+
+input {
+  top: 30px;
+  left: 5px;
+  background-color: #ffffff1e;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+button {
+  top: 70px;
+  left: 5px;
+  background-color: green;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.info {
+  position: fixed;
+  display: block;
+  bottom: 5px;
+  color: aqua;
+  width: 100%;
+  text-align: center;
+}
